@@ -33,6 +33,7 @@ def select_entry():
     return (msg, png_path)
 
 
+time.sleep(60*20)
 api = get_api()
 last_time = datetime.datetime.now() - datetime.timedelta(days=30)
 
